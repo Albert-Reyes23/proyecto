@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraíso Hotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Paraíso Hotel</h1>
+        <p>Tu escape perfecto para unas vacaciones inolvidables.</p>
+    </header>
+    
+    
+    <section class="caracteristicas">
+        <h2>Características del Hotel</h2>
+        <div class="grid">
+            <div class="card"><i class="fas fa-bed"></i> <h3>Habitaciones de Lujo</h3><p>Cómodas y elegantes.</p></div>
+            <div class="card"><i class="fas fa-map-marker-alt"></i> <h3>Ubicación Perfecta</h3><p>Frente a la playa.</p></div>
+            <div class="card"><i class="fas fa-parking"></i> <h3>Parqueo Disponible</h3><p>Estacionamiento gratuito.</p></div>
+            <div class="card"><i class="fas fa-water"></i> <h3>Cerca de la Playa</h3><p>Disfruta del sol y la arena.</p></div>
+            <div class="card"><i class="fas fa-snowflake"></i> <h3>Aire Acondicionado</h3><p>Climatización total.</p></div>
+            <div class="card"><i class="fas fa-tv"></i> <h3>Wifi y TV</h3><p>Entretenimiento garantizado.</p></div>
+        </div>
+    </section>
+
+    <section class="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="imagenes">
+            <img src="imagen 1.jpeg" alt="Vista del hotel">
+            <img src="imagen 2.jpeg" alt="Piscina del hotel">
+            <img src="imagen 3.jpeg" alt="Habitación de lujo">
+            <img src="imagen 4.jpeg" alt="Restaurante">
+            <img src="imagen 5.jpeg" alt="Playa cercana">
+            <img src="imagen 6.jpeg" alt="Parqueo del hotel">
+        </div>
+    </section>
+    
+    <section class="reserva">
+        <h2>Reserva tu estancia</h2>
+        <form id="formulario-reserva">
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <input type="text" id="apellido" placeholder="Tu apellido">
+            <input type="email" id="email" placeholder="Tu correo">
+            <input type="tel" id="telefono" placeholder="Tu teléfono">
+            <input type="number" id="personas" placeholder="Cantidad de personas">
+            <button type="button" onclick="enviarReserva()">Reservar</button>
+        </form>
+        <p id="confirmacion2"></p>
+    </section>
+    
+    <script src="index.Js"></script>
+</body>
+</html>

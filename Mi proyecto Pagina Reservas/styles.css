@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+}
+
+.galeria {
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.galeria h2 {
+    color: #333;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.caracteristicas {
+    background: white;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    text-align: center;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+    font-size: 30px;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.reserva {
+    background: white;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reserva form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reserva input, .reserva button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.reserva button {
+    background-color: #0073e6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.reserva button:hover {
+    background-color: #005bb5;
+}
